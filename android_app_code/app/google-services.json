@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "621165148756",
+    "firebase_url": "https://dsdp-636be.firebaseio.com",
+    "project_id": "dsdp-636be",
+    "storage_bucket": "dsdp-636be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621165148756:android:da792887ea39f5d6",
+        "android_client_info": {
+          "package_name": "com.example.mainuddin.iot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "621165148756-76hi4gn7mqpif4l9ckenkahdjikd4tft.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mainuddin.iot",
+            "certificate_hash": "ea037c74ee3827cecf1d2462e2d35655d9094265"
+          }
+        },
+        {
+          "client_id": "621165148756-rdn267qtpc93ba3cokvbc2p3laa6tiso.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfUg5brWA19f1w0gRJx4icqYnvmpMYjUE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "621165148756-rdn267qtpc93ba3cokvbc2p3laa6tiso.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

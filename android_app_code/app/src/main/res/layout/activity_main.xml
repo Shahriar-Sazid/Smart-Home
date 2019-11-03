@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:theme="@style/AppTheme.AppBarOverlay">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/ios_bg"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:context=".MainActivity">
+
+
+        <TextView
+            android:id="@+id/maintext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"
+            android:fontFamily="serif-monospace"
+            android:text="Welcome to IoT Home Controller"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <com.suke.widget.SwitchButton
+            android:id="@+id/bulbe2switch2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/bulbe1switch1"
+            android:layout_alignStart="@+id/bulbe1switch1"
+            android:layout_below="@+id/bulbe1switch1"
+            android:layout_marginTop="36dp" />
+
+
+        <com.suke.widget.SwitchButton
+            android:id="@+id/bulbe1switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/maintext"
+            android:layout_marginEnd="26dp"
+            android:layout_marginRight="26dp"
+            android:layout_marginTop="30dp" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="96dp"
+            android:layout_height="38dp"
+
+            android:layout_alignTop="@+id/bulbe2switch2"
+            android:fontFamily="serif-monospace"
+            android:text="Fan"
+
+            android:textColor="@color/colorAccent"
+            android:textSize="40px" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="96dp"
+            android:layout_height="38dp"
+
+
+            android:layout_alignStart="@+id/maintext"
+            android:layout_alignTop="@+id/bulbe1switch1"
+
+            android:fontFamily="serif-monospace"
+            android:text="Light"
+            android:textColor="@color/colorAccent"
+            android:textSize="40px" />
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">iot</string>
+    <string name="action_exit">Exit</string>
+    <string name="tab_1">Mail</string>
+    <string name="tab_2">SMS</string>
+    <string name="tab_3">Push Notification</string>
+    <string name="title_activity_alert_dialog">CAUTION!!</string>
+
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">IOT app \n Loading... </string>
+</resources>
